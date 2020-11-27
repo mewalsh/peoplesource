@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "user-schema",
+  "definitions": {},
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "lastName": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "firstName",
+    "lastName"
+  ],
+  "additionalProperties": false,
+  "type": "object"
+}

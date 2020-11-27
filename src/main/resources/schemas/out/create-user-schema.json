@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "greeting-schema",
+  "definitions": {},
+  "properties": {
+    "username": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "username"
+  ],
+  "additionalProperties": false,
+  "type": "object"
+}

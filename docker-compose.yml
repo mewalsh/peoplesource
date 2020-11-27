@@ -1,0 +1,7 @@
+version: "2"
+
+services:
+  camel-rest-service:
+    image: mtech/camel-rest-service:latest
+    ports:
+      - 8080:8080
