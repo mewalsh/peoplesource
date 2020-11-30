@@ -24,3 +24,15 @@ This will start the application running locally on port 8080.
 ### API Documentation
 
 The API documentation is available, when the application is running, at http://localhost:8080/api-docs.
+
+
+### Example
+
+`POST -> http://localhost:8080/api/users`
+
+`
+{
+    "firstName": "martin",
+    "lastName": "walsh"
+}
+`
